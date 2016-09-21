@@ -8,6 +8,9 @@ body{
     
 }
 
+li {
+    font-size: 30px;
+}
 p{
     color: blue;
     background-color: yellow;
