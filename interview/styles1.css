@@ -10,17 +10,29 @@ body{
 
 p{
     color: blue;
-    background-color: yellow;
+ letter-spacing: 10px;
     overflow: hidden;
-    text-decoration: underline;
+    font-size: 36px;
+    line-height: 50px;
+    width: inherit
+    
     
 }
 
 
+
 .special {
-    color: purple;
-    width: 300px;
     
+ 
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 10px;
+    
+    
+    
+}
+
+.right {
     
 }
 
@@ -34,3 +46,10 @@ p{
     border:10px solid red;
     
 }
+
+li {
+    font-size: 12px;
+    letter-spacing: 10px;
+    line-height: 1px;
+}
+

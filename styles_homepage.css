@@ -3,13 +3,15 @@ body{
     color : white;
     font-size: 100px;
     line-height: 200px;
-    letter-spacing: -5px;
+    letter-spacing: 19px;
     font-family: "Futura",helvetica,impact, arial, sans-serif;
     
 }
 
 li {
-    font-size: 30px;
+    font-size: 18px;
+    letter-spacing: 10px;
+    line-height: 100px;
 }
 p{
     color: blue;
