@@ -1,18 +1,21 @@
 body{
     background-color : pink;
     color : white;
-    font-size: 48px;
-    line-height: 150px;
-    letter-spacing: 20px;
+    font-size: 36px;
+    line-height: 80px;
+    letter-spacing: 10px;
+    padding: 70px 0;
+    border: 50px solid #36b3ac;
+    text-align: center;
     font-family: "Futura",helvetica,impact, arial, sans-serif;
     
 }
 
 p{
     color: blue;
- letter-spacing: 10px;
+ letter-spacing: 5px;
     overflow: hidden;
-    font-size: 36px;
+    font-size: 24px;
     line-height: 50px;
     width: inherit
     

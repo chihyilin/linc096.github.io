@@ -2,8 +2,11 @@ body{
     background-color : pink;
     color : white;
     font-size: 100px;
-    line-height: 200px;
-    letter-spacing: 19px;
+    line-height: 280px;
+    letter-spacing: 80px;
+    padding: 70px 0;
+    border: 50px solid #36b3ac;
+    text-align: center;
     font-family: "Futura",helvetica,impact, arial, sans-serif;
     
 }
@@ -14,17 +17,22 @@ li {
     line-height: 100px;
 }
 p{
-    color: blue;
-    background-color: yellow;
+    color: #36b3ac;
+ letter-spacing: 5px;
     overflow: hidden;
-    text-decoration: underline;
+    font-size: 24px;
+    line-height: 50px;
+    width: inherit
     
 }
 
 
 .special {
-    color: purple;
-    width: 300px;
+     font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    
+    
     
     
 }
