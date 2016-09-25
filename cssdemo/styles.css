@@ -1,28 +1,58 @@
 body{
-    background-color : pink;
+    background-color : #bd8cbf;
     color : white;
+    text-align: center;
     font-size: 100px;
     line-height: 100px;
     letter-spacing: -5px;
+    padding:100px;
     font-family: "Futura",helvetica,impact, arial, sans-serif;
     
 }
 
 p{
-    color: blue;
-    background-color: yellow;
+    color: #36b3ac;
+    background-color: pink;
     overflow: hidden;
-    text-decoration: underline;
-    
+    text-align: center;
 }
 
 
 .special {
-    color: purple;
+    color: yellow;
+    text-decoration: underline;
     width: 300px;
-    
+    text-align:center;
+    font-size: 48px;
+    letter-spacing: 50px;
     
 }
+
+
+
+.special2 {
+    color: yellow;
+    text-decoration: underline;
+    width: 300px;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 50px;
+    
+}
+
+
+
+.special3 {
+    color: yellow;
+    text-decoration: underline;
+    width: 300px;
+    text-align: right;
+    font-size: 48px;
+    letter-spacing: 50px;
+    
+}
+
+
 
 
 .ontop {
@@ -31,6 +61,59 @@ p{
     margin:0;
     bottom:0;
     padding: 60px;
-    border:10px solid red;
+    border:10px dashed yellow;
+    
+}
+
+.onleft {
+    position: fixed;
+    left: 0;
+    margin:0;
+    bottom:0;
+    padding: 60px;
+    border:10px dashed yellow;
+    
+}
+
+.i {
+    position: fixed;
+    left: 350;
+    margin:0;
+    bottom:0;
+    padding: 60px;
+    border:10px dashed yellow;
+    
+}
+
+
+.v {
+    position: fixed;
+    left: 650;
+    margin:0;
+    bottom:0;
+    padding: 60px;
+    border:10px dashed yellow;
+    
+}
+
+
+.i2 {
+    position: fixed;
+    left: 1020;
+    margin:0;
+    bottom:0;
+    padding: 60px;
+    border:10px dashed yellow;
+    
+}
+
+
+.a {
+    position: fixed;
+    right: 380;
+    margin:0;
+    bottom:0;
+    padding: 60px;
+    border:10px dashed yellow;
     
 }

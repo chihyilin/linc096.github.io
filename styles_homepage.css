@@ -1,9 +1,9 @@
 body{
     background-color : pink;
     color : white;
-    font-size: 100px;
+    font-size: 72px;
     line-height: 280px;
-    letter-spacing: 80px;
+    letter-spacing: 100px;
     padding: 70px 0;
     border: 50px solid #36b3ac;
     text-align: center;
@@ -18,11 +18,12 @@ li {
 }
 p{
     color: #36b3ac;
- letter-spacing: 5px;
+    letter-spacing: 5px;
     overflow: hidden;
-    font-size: 24px;
-    line-height: 50px;
-    width: inherit
+    font-size: 48px;
+    line-height: 80px;
+    width: inherit;
+    font: helvetica;
     
 }
 
