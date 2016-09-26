@@ -17,13 +17,17 @@ p{
     text-align: center;
 }
 
+a{
+    
+}
+
 
 .special {
     color: yellow;
     text-decoration: underline;
     width: 300px;
     text-align:center;
-    font-size: 48px;
+    font-size: 12px;
     letter-spacing: 50px;
     
 }
