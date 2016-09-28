@@ -1,13 +1,13 @@
 body{
     background-color : #bd8cbf;
     color : white;
-    text-align: center;
+    text-align:left;
     font-size: 100px;
     line-height: 100px;
     letter-spacing: -5px;
     padding:100px;
     font-family: "Futura",helvetica,impact, arial, sans-serif;
-    
+    margin: 0px;
 }
 
 p{
@@ -16,8 +16,6 @@ p{
     overflow: hidden;
     text-align: center;
     line-height: 0.05px;
-    margin:10 auto;
-
 }
 
 a{
@@ -136,81 +134,10 @@ a{
     
 }
 
-.circle{
-    background-color: red;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    color: white;
-    font-size: 20;
-    padding: 20px;
-    border: 20px solid orange;
-    letter-spacing: 5px;
-    margin; 50px;
-}
-
-h1{
-    font-size: 100px;
-}
-
-.column{
-    background-color: orange;
-    width: 200px;
-    font-size: 12;
-    letter-spacing: 1;
-    padding:0 10px;
-    padding-top: 10px; 
-    display: inline-block;
-    line-height: -5px;
-        vertical-align: top;
-
-}
-
-.column2{
-    background-color: red;
-    width: 200px;
-    font-size: 12;
-    letter-spacing: 5;
-    padding:0 10px;
-    padding-top: 10px; 
-    display: inline-block;
-    line-height: -5px;
-    vertical-align: top;
-    
-}
-
 .wrapper{
-    margin:0 auto;
-    width: 800px ;
-}
-
-.master-button {
-    width: 100px;
-    height: 100px;
-    letter-spacing: 5px;
-}
-.buttom {
-    
-    background-color: lime;
-    border-radius: 100px;
-    text-align: center;
-    line-height: 100px;
+    margin: 0;
+    padding: 0 auto;
+    float: left;
     position: fixed;
-    top: 70px;
-    right:70px;
-    font-size: 12px;
-    z-index: 100;
-}
-
-.buttom2 {
-    background-color: green;
-    border-radius: 100px;
-    text-align: center;
-    line-height: 100px;
-    position: fixed;
-    top: 60px;
-    right:60px;
-    font-size: 12px;
     
-    z-index: 200;
 }
