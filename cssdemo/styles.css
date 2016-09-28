@@ -11,35 +11,40 @@ body{
 }
 
 p{
-    color: #36b3ac;
+    color: #8ccbc3;
     background-color: pink;
     overflow: hidden;
     text-align: center;
+    line-height: 0.05px;
 }
 
 a{
-    
+    font-size: 10px;
+    letter-spacing: 10px;
+    line-height: 1px;
 }
 
 
 .special {
-    color: yellow;
-    text-decoration: underline;
-    width: 300px;
-    text-align:center;
-    font-size: 12px;
-    letter-spacing: 50px;
+    color: pink;
     
+    width: 1700px;
+    height: 10px;
+    right: 10;
+    font-size: 48px;
+    letter-spacing: 50px;
+    text-align: center;
 }
 
 
 
 .special2 {
-    color: yellow;
-    text-decoration: underline;
-    width: 300px;
-    text-align: center;
-    font-size: 48px;
+    color: pink;
+    
+    width: 1700px;
+    height: 10px;
+    text-align:center;
+    font-size: 36px;
     letter-spacing: 50px;
     
 }
@@ -47,9 +52,10 @@ a{
 
 
 .special3 {
-    color: yellow;
+    color: pink;
     text-decoration: underline;
-    width: 300px;
+    width: 1700px;
+    height: 10px;
     text-align: right;
     font-size: 48px;
     letter-spacing: 50px;
@@ -61,6 +67,7 @@ a{
 
 .ontop {
     position: fixed;
+    background-color : #bd8cbf;
     right:0;
     margin:0;
     bottom:0;
@@ -71,6 +78,7 @@ a{
 
 .onleft {
     position: fixed;
+    background-color : #bd8cbf;
     left: 0;
     margin:0;
     bottom:0;
@@ -81,6 +89,7 @@ a{
 
 .i {
     position: fixed;
+    background-color : #bd8cbf;
     left: 350;
     margin:0;
     bottom:0;
@@ -92,6 +101,7 @@ a{
 
 .v {
     position: fixed;
+    background-color : #bd8cbf;
     left: 650;
     margin:0;
     bottom:0;
@@ -103,6 +113,7 @@ a{
 
 .i2 {
     position: fixed;
+    background-color : #bd8cbf;
     left: 1020;
     margin:0;
     bottom:0;
@@ -114,6 +125,7 @@ a{
 
 .a {
     position: fixed;
+    background-color : #bd8cbf;
     right: 380;
     margin:0;
     bottom:0;
