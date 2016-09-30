@@ -153,9 +153,8 @@ h1{
     font-size: 100px;
 }
 
-.column{
-    background-color: orange;
-    width: 200px;
+.column {
+        width: 200px;
     font-size: 12;
     letter-spacing: 1;
     padding:0 10px;
@@ -165,17 +164,13 @@ h1{
         vertical-align: top;
 
 }
+.column1 {
+    background-color: orange;
+
+}
 
 .column2{
     background-color: red;
-    width: 200px;
-    font-size: 12;
-    letter-spacing: 5;
-    padding:0 10px;
-    padding-top: 10px; 
-    display: inline-block;
-    line-height: -5px;
-    vertical-align: top;
     
 }
 
