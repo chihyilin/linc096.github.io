@@ -75,6 +75,22 @@ a{
         vertical-align: top;
 }
 
+.circle2 {
+    background-color: #feeac5;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    color: white;
+    font-size: 20;
+    padding: 50px;
+    border: 20px solid white;
+    letter-spacing: 5px;
+    margin; 50px;
+    display: inline-block;
+    line-height: -5px;
+        vertical-align: top;
+}
+
 h1{
     font-size: 100px;
 }
