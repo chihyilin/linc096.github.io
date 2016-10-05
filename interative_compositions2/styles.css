@@ -30,10 +30,10 @@ a{
 
 
 .master-special {
-    width: 300px;
+    width: 20%;
     height: 50px;
     right: 10;
-    font-size: 48px;
+    font-size: 0;
     letter-spacing: 30px;
     text-align: right;
     margin:0;
@@ -115,7 +115,7 @@ h1{
     margin-bottom:50px;
     width: 100px ;
     bottom: 0px;
-    right:900px;
+    right:45%;
     position: fixed;
 }
 
@@ -124,7 +124,7 @@ h1{
     margin-bottom:50px;
     width: 100px ;
     top: -50px;
-    left:600px;
+    left:30%;
     position: fixed;
     
  
@@ -135,7 +135,7 @@ h1{
     margin-bottom:0px;
     width: 100px ;
     top: -50px;
-    right:200px;
+    right:8%;
     position: fixed;
     
  
@@ -147,7 +147,7 @@ h1{
     margin-bottom:-50px;
     width: 100px ;
     bottom: -50px;
-    right:550px;
+    right:25%;
     position: fixed;
     
  

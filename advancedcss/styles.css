@@ -1,0 +1,95 @@
+.mybutton{
+    background-image: url(sprite.png);
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.mybutton:hover{
+    background-position: -200px 0;
+}
+
+.mybutton:active{
+    background-position: -400px 0;
+
+}
+
+body{
+   margin:0;
+}
+
+
+.blue {
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+}
+
+.fullwidth{
+    background-color: black;
+    margin-bottom: 100px;
+    height: 40px;
+    width: 70%;
+    margin:0 auto;
+}
+
+
+.stage{
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    top:40px;
+    left: 60px;
+}
+
+.box{
+    width: 100px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+
+
+.traingle{
+    width: 0px;
+    border: 200px solid transparent;
+    border-top: 200px solid green;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+}
+
+.box1{
+    top: 20px;
+    left:20px;
+    background-color: lime;
+    z-index: 100;
+}
+
+.box2{
+    top: 40px;
+    left:40px;
+    background-color: blue;
+    z-index: 150;
+}
+
+.box3{
+    top: 60px;
+    left:60px;
+    background-color: purple;
+    z-index: 200;
+    
+}
+
+.box4{
+    top: 80px;
+    left:80px;
+    background-color: pink;
+    z-index: 250;
+}    
