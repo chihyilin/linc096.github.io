@@ -18,7 +18,7 @@ body{
 
 .mybutton{
     background-image: url(lego.png);
-    background-color: yellow;
+    background-color: #ffd329;
     width: 200px;
     height: 200px;
     display: block;
@@ -28,6 +28,9 @@ body{
    
 }
 
+
+
+
 .mybutton:hover{
     background-position: -200px 0;
 }
@@ -36,6 +39,84 @@ body{
     background-position: -400px 0;
 
 }
+
+
+.mybutton2{
+    background-image: url(lego2.png);
+    background-color: #f0bf94;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+   
+}
+
+
+
+
+.mybutton2:hover{
+    background-position: -200px 0;
+}
+
+.mybutton2:active{
+    background-position: -400px 0;
+
+}
+
+
+
+.mybutton3{
+    background-image: url(lego3.png);
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+   
+}
+
+
+
+
+.mybutton3:hover{
+    background-position: -200px 0;
+}
+
+.mybutton3:active{
+    background-position: -400px 0;
+
+}
+
+
+.mybutton4{
+    background-image: url(lego3.png);
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+   
+}
+
+
+
+
+.mybutton4:hover{
+    background-position: -200px 0;
+}
+
+.mybutton4:active{
+    background-position: -400px 0;
+
+}
+
+
 
 body{
    margin:0;
@@ -52,7 +133,7 @@ body{
 
 .special{
     right:10px;
-    background-color:green;
+    background-color:ff923d;
     width:100px;
     height: 100px
 }
