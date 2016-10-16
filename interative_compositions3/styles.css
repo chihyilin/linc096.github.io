@@ -1,0 +1,133 @@
+body{
+    background-color : #fed240;
+    color : white;
+    text-align: center;
+    font-size: 100px;
+    line-height: 70px;
+    letter-spacing: 10px;
+    padding:100px;
+    padding-bottom: 200;
+    font-family: "willow",helvetica,impact, arial, sans-serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+
+
+
+.mybutton{
+    background-image: url(lego.png);
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+   
+}
+
+.mybutton:hover{
+    background-position: -200px 0;
+}
+
+.mybutton:active{
+    background-position: -400px 0;
+
+}
+
+body{
+   margin:0;
+   margin-left: 0;
+}
+
+
+.blue {
+    background-color:d8110a;
+    width: 40%;
+    height: 400px;
+}
+
+
+.special{
+    right:10px;
+    background-color:green;
+    width:100px;
+    height: 100px
+}
+
+
+
+.fullwidth{
+    background-color: black;
+    margin-bottom: 100px;
+    height: 40px;
+    width: 70%;
+    margin:0 auto;
+}
+
+
+.stage{
+    width: 200px;
+    height: 400px;
+    background-color: #007cb0;
+    top:40px;
+    left: 60px;
+}
+
+
+.traingle{
+    width: 0px;
+    border: 200px solid transparent;
+    border-top: 200px solid #019e57;
+}
+
+
+.box{
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    font-size: 30%;
+    text-align: center;
+    color: red;
+    line-height:200px;
+}
+
+
+
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    
+}
+
+.box1{
+    top: 20px;
+    left:20px;
+    background-color: lime;
+    z-index: 100;
+}
+
+
+
+.box3{
+    top: 60px;
+    left:60px;
+    background-color: purple;
+    z-index: 200;
+    
+}
+
+.box4{
+    top: 80px;
+    left:80px;
+    background-color: pink;
+    z-index: 250;
+}    
