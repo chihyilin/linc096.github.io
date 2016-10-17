@@ -20,8 +20,8 @@ p{
     color: #36b3ac;
     letter-spacing: 5px;
     overflow: hidden;
-    font-size: 48px;
-    line-height: 80px;
+    font-size: 36px;
+    line-height: 50px;
     width: inherit;
     font: helvetica;
     
@@ -47,4 +47,14 @@ p{
     padding: 60px;
     border:10px solid red;
     
+}
+
+
+.div{
+    width: 200px;
+    height: 200px;
+    bottom: 100px;
+    right: 100px;
+    position: fixed;
+    background-image: url(squid2.png);
 }
