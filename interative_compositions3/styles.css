@@ -166,6 +166,55 @@ body{
 }
 
 
+.mybutton7{
+    background-image: url(lego7.png);
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+   
+}
+
+
+
+
+.mybutton7:hover{
+    background-position: -200px 0;
+}
+
+.mybutton7:active{
+    background-position: -400px 0;
+
+}
+
+.mybutton8{
+    background-image: url(lego8.png);
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+   
+}
+
+
+
+
+.mybutton8:hover{
+    background-position: -200px 0;
+}
+
+.mybutton8:active{
+    background-position: -400px 0;
+
+}
+
+
 body{
    margin:0;
    margin-left: 0;
