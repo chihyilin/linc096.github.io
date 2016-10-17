@@ -215,6 +215,32 @@ body{
 }
 
 
+.mybutton9{
+    background-image: url(lego9.png);
+    background-color: #f0bf94;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+   
+}
+
+
+
+
+.mybutton9:hover{
+    background-position: -200px 0;
+}
+
+.mybutton9:active{
+    background-position: -400px 0;
+
+}
+
+
+
 body{
    margin:0;
    margin-left: 0;
@@ -228,12 +254,7 @@ body{
 }
 
 
-.special{
-    right:10px;
-    background-color:ff923d;
-    width:100px;
-    height: 100px
-}
+
 
 
 
@@ -246,33 +267,19 @@ body{
 }
 
 
-.stage{
-    width: 200px;
-    height: 400px;
-    background-color: #007cb0;
-    top:40px;
-    left: 60px;
-}
-
-
-.traingle{
-    width: 0px;
-    border: 200px solid transparent;
-    border-top: 200px solid #019e57;
-}
 
 
 .box{
     width: 100px;
     height: 60px;
-    background-color: white;
+    background:url(legopic2.png) no-repeat;
     position: fixed;
     bottom: 40px;
     right: 20px;
-    font-size: 30%;
+    font-size: 20%;
     text-align: center;
-    color: red;
-    line-height:200px;
+    color: white;
+    line-height:230px;
 }
 
 
@@ -286,26 +293,30 @@ body{
     
 }
 
-.box1{
-    top: 20px;
-    left:20px;
-    background-color: lime;
-    z-index: 100;
+
+.box2{
+    width: 100px;
+    height: 60px;
+    background:url(legopic.png) center no-repeat;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    font-size: 20%;
+    text-align: center;
+    color: white;
+    line-height:230px;
 }
 
 
 
-.box3{
-    top: 60px;
-    left:60px;
-    background-color: purple;
-    z-index: 200;
+
+
+.box2{
+    width: 200px;
+    height: 200px;
+    position: fixed;
     
 }
 
-.box4{
-    top: 80px;
-    left:80px;
-    background-color: pink;
-    z-index: 250;
-}    
+
+
