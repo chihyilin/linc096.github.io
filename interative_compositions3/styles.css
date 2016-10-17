@@ -93,7 +93,7 @@ body{
 
 
 .mybutton4{
-    background-image: url(lego3.png);
+    background-image: url(lego4.png);
     background-color: white;
     width: 200px;
     height: 200px;
@@ -116,6 +116,54 @@ body{
 
 }
 
+.mybutton5{
+    background-image: url(lego5.png);
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+   
+}
+
+
+
+
+.mybutton5:hover{
+    background-position: -200px 0;
+}
+
+.mybutton5:active{
+    background-position: -400px 0;
+
+}
+
+
+.mybutton6{
+    background-image: url(lego6.png);
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+   
+}
+
+
+
+
+.mybutton6:hover{
+    background-position: -200px 0;
+}
+
+.mybutton6:active{
+    background-position: -400px 0;
+
+}
 
 
 body{
