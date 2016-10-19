@@ -1,3 +1,13 @@
+a {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  display: inline-block;
+  
+}
+
+
+
 body{
     background-color : #fed240;
     color : white;
@@ -280,13 +290,6 @@ body{
     text-align: center;
     color: white;
     line-height:230px;
-}
-
-
-
-
-
-.box{
     width: 200px;
     height: 200px;
     position: fixed;
@@ -305,15 +308,43 @@ body{
     text-align: center;
     color: white;
     line-height:230px;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    
+}
+
+.box3{
+    width: 100px;
+    height: 60px;
+    background:url(brick.png) center no-repeat;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    font-size: 20%;
+    text-align: center;
+    color: white;
+    line-height:135px;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    
 }
 
 
-
-
-
-.box2{
+.box4{
+    width: 100px;
+    height: 60px;
+    background:url(brick2.png) center no-repeat;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    font-size: 20%;
+    text-align: center;
+    color: white;
+    line-height:135px;
     width: 200px;
-    height: 200px;
+    height: 300px;
     position: fixed;
     
 }
