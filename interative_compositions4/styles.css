@@ -420,6 +420,9 @@ a{
     line-height:200px;
     text-align: center;
     font-size:12px;
+    position:absolute;
+    bottom:0%;
+    left:11%;
 }
 
 
