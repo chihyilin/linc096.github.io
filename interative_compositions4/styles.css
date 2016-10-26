@@ -10,8 +10,9 @@ body{
 }
 
 a{
-    font-size: 10px;
-    letter-spacing: 10px;
+    font-size: 18px;
+    font-family:Courier;
+    letter-spacing: 1px;
     line-height: 1px;
     color: white;
     position: absolute;
@@ -138,8 +139,8 @@ a{
 
 .box3:hover{
     font-family: Courier;
-    width: 700px;
-    height: 400px;
+    width: 500px;
+    height: 700px;
     right:5px;
     bottom:50px;
 }
@@ -315,7 +316,7 @@ a{
     animation-iteration-count: infinite;
     position:absolute;
     bottom:0%;
-    left:15%;
+    left:20%;
 }
 
 .seconds3{
