@@ -36,7 +36,7 @@ a{
     font-family: Courier;
     width: 150px;
     height: 150px;
-    right:1000px;
+    right:700px;
     bottom:100px;
     position:absolute;
 }
@@ -50,7 +50,7 @@ a{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     position: absolute;
-    right:800px;
+    right:700px;
     bottom:100px;
     
 }    
@@ -83,7 +83,9 @@ a{
     font-size: 18px;
     color: white;
     font-family: Courier;
+    font-style: italic;
     padding: 10px;
+    position: absolute;
  
 }    
 
@@ -91,8 +93,8 @@ a{
     font-family: Courier;
     width: 1500px;
     height: 100px;
-    left:50%;
-    top:50%;
+    left:0%;
+    top:0%;
 }
 
 .box2{
@@ -102,8 +104,8 @@ a{
     animation-name: box2;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    top:70%;
-    right:20%;
+    top:0%;
+    left:00%;
     
 }    
 
@@ -133,6 +135,7 @@ a{
     font-size: 18px;
     color: white;
     font-family: Courier;
+    font-style: italic;
     padding: 10px;
     position:absolute;
  
@@ -183,6 +186,7 @@ a{
     font-size: 18px;
     color: white;
     font-family: Courier;
+    font-style: italic;
     padding: 10px;
  
 }    
@@ -306,8 +310,8 @@ a{
 
 
 .clock3{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     background-color: white;
     border-radius: 100%;
     position: relative;
@@ -321,11 +325,11 @@ a{
 }
 
 .seconds3{
-    width: 100px;
-    height: 4px;
+    width: 200px;
+    height: 10px;
     background-color: black;
     position: absolute;
-    top: 98px;
+    top: 195px;
 }
 
 @keyframes myclock3 {
@@ -340,8 +344,8 @@ a{
 
 
 .clock4{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: white;
     border-radius: 100%;
     position: relative;
@@ -351,15 +355,15 @@ a{
     animation-iteration-count: infinite;
     position:absolute;
     top:0%;
-    right:15%;
+    right:10%;
 }
 
 .seconds4{
-    width: 100px;
-    height: 4px;
+    width: 125px;
+    height: 8px;
     background-color: black;
     position: absolute;
-    top: 98px;
+    top: 121px;
 }
 
 @keyframes myclock4 {
@@ -423,7 +427,7 @@ a{
     font-size:12px;
     position:absolute;
     bottom:0%;
-    left:11%;
+    left:5%;
 }
 
 
