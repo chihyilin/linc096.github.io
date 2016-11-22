@@ -27,3 +27,22 @@ $("dot").each(function(){
 $(".dot").click(function(){
     $(this).toggleClass("whatever");
 });
+
+for (var i = 0; i < 10; i++) {
+    console.log(increment);
+    $("body").append("<div class='box'></div>");
+}
+
+var rounding =0;
+
+$(".box").each(function(){
+    console.log("i found class box");
+    console.log(rounding);
+    var radius = rouding + "px";
+    $(this).css("border-radius",radius)
+    rounding++;
+});
+
+$(".box").click(function() {
+    $(this).css("backgorund-color","blue");
+});

@@ -6,24 +6,34 @@ var clicks = 0;
 $("button").click(function() {
         console.log("hello");
     clicks++;
-    $("body").css("background-color","#00FFFF");
+    $("body").css("background-color","#D8BFD8");
     console.log(clicks);
 });
 
 var counter = 0;
 
-for (var i = 0; i < 65; i++) {
+for (var i = 0; i < 30; i++) {
     counter++;
     console.log(counter);
     $("body").append("<div class='dot'></div>");
 }
 
-
-$("dot").each(function(){
+var leftPosition = 0;
+var topPosition = 0;
+$(".dot").each(function(){
      console.log("found a dot");
-     $(this).html(counter);
+     $(this).css("left",Math.floor(Math.random()*1500));
+     leftPosition = leftPosition + 100;
+     $(this).css("top",Math.floor(Math.random()*1000));
+     topPosition = topPosition + 50;
+
+     
 });
+
+var topmost = 100;
 
 $(".dot").click(function(){
     $(this).toggleClass("whatever");
+    $(this).css("z-index",topmost);
+    topmost++;
 });
