@@ -1,0 +1,277 @@
+body{
+    padding:10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    font-family: "impact",helvetica,impact, arial, sans-serif;
+    font-size: 200px;
+    color: #98fb98;
+    position: relative;
+}
+
+.home {
+    position: fixed;
+    top:200;
+    right:0;
+    transform: rotate(90deg);
+    z-index: 1;
+    
+}
+
+a {
+    position: relative;
+    color: #98fb98;
+    font-size: 400px;
+    z-index: 10;
+}
+
+
+
+.mybutton{
+    
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #ee82ee;
+    margin: 50px;
+
+}
+
+
+.mybutton:hover{
+    background-color: #bb8dbd;
+}
+
+.mybutton:active{
+    background-color: #98fb98;
+
+}
+
+
+
+
+.mybutton2{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #ee82ee;
+    margin: 50px;
+
+}
+
+.mybutton2:hover{
+    width: 200px;
+    height: 200px;
+    background-color: #fbe8c6;
+    border: 50px solid white;
+}
+
+.mybutton2:active{
+    /*background-position: -800px 0;*/
+    background-color: #98fb98;
+    border: 50px solid #98fb98;
+}
+
+
+.mybutton3{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #ee82ee;
+    margin: 50px;
+}
+
+.mybutton3:hover{
+    background-color: #cf2630;
+}
+
+.mybutton3:active{
+    background-color: #98fb98;
+
+}
+
+
+
+.mybutton4{
+    /*background-image: url(circle4.png);*/
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #ee82ee;
+    margin: 50px;
+   
+}
+
+.mybutton4:hover{
+    /*background-color: white;*/
+    background: url(2.png);
+}
+
+.mybutton4:active{
+    background: #98fb98;
+
+}
+
+
+
+.mybutton5{
+    /*background-image: url(circle5.png);*/
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #ee82ee;
+    margin: 50px;
+   
+}
+
+.mybutton5:hover{
+    background: linear-gradient(to right, blue, red);
+}
+
+.mybutton5:active{
+    background: #98fb98;
+}
+
+
+.mybutton6{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #ee82ee;
+    margin: 50px;
+   
+}
+
+.mybutton6:hover{
+    width: 150px;
+    height: 150px;
+    background-color: #ee82ee;
+    border: 75px solid #fff029;
+}
+
+.mybutton6:active{
+    background-color: #98fb98;
+    border: 75px solid #98fb98;
+
+}
+
+
+
+.circle1{
+    background-color: #ee82ee;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    color: white;
+    font-size: 20;
+    padding: 50px;
+    letter-spacing: 5px;
+    margin:50px;
+    display: inline-block;
+    line-height: -5px;
+    vertical-align: top;
+    position: fixed;
+    top:1%;
+    left:10%;
+}
+
+.circle2{
+    background-color: #ee82ee;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    color: white;
+    font-size: 20;
+    padding: 50px;
+    letter-spacing: 5px;
+    margin: 50px;
+    display: inline-block;
+    line-height: -5px;
+    vertical-align: top;
+    position: fixed;
+    top:1%;
+    left:35%;
+}
+
+.circle3{
+    background-color: #ee82ee;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    color: white;
+    font-size: 20;
+    padding: 50px;
+    letter-spacing: 5px;
+    margin: 50px;
+    display: inline-block;
+    line-height: -5px;
+    vertical-align: top;
+    position: fixed;
+    top:1%;
+    left:60%;
+}
+
+.circle4{
+    background-color: #ee82ee;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    color: white;
+    font-size: 20;
+    padding: 50px;
+    letter-spacing: 5px;
+    margin: 50px;
+    display: inline-block;
+    line-height: -5px;
+    vertical-align: top;
+    position: fixed;
+    bottom:1%;
+    left:10%;
+}
+
+.circle5{
+    background-color: #ee82ee;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    color: white;
+    font-size: 20;
+    padding: 50px;
+    letter-spacing: 5px;
+    margin: 50px;
+    display: inline-block;
+    line-height: -5px;
+    vertical-align: top;
+    position: fixed;
+    bottom:1%;
+    left:35%;
+}
+
+
+.circle6{
+    background-color: #ee82ee;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    color: white;
+    font-size: 20;
+    padding: 50px;
+    letter-spacing: 5px;
+    margin: 50px;
+    display: inline-block;
+    line-height: -5px;
+    vertical-align: top;
+    position: fixed;
+    bottom:1%;
+    left:60%;
+}
+
+#date, #date2, #date3, #date4, #date5, #date6{
+    position: absolute;
+    z-index: 20;
+}
