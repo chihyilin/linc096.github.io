@@ -1,29 +1,30 @@
 body{
     padding:10px;
     padding-bottom: 10px;
-    padding-left: 200px;
+    padding-left: 150px;
     font-family: "impact",helvetica,impact, arial, sans-serif;
     font-size: 200px;
-    color: #98fb98;
+    color: #ee82ee;
     position: relative;
 }
 
 .home {
     position: fixed;
-    top:200;
+    top:50%;
     right:0;
     transform: rotate(90deg);
     z-index: 1;
     
 }
 
+
 a {
     position: relative;
-    color: #98fb98;
-    font-size: 400px;
+    color: #ee82ee;
+    font-size: 50px;
     z-index: 10;
-}
 
+}
 
 
 .mybutton{
@@ -274,4 +275,5 @@ a {
 #date, #date2, #date3, #date4, #date5, #date6{
     position: absolute;
     z-index: 20;
+    color:#98fb98;
 }
